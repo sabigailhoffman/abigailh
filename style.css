@@ -1,0 +1,28 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+li{
+    align-self: center;
+    list-style: none;
+    font-size: 24pt;
+    font-family: serif;
+}
+
+#Profile {
+    margin-top: 800px;
+    width: 100%;
+    height: 800px;
+}
+#info{
+    width: 357;
+    height: 141;
+    display: flex;
+
+}
+#Profile-image{
+    height: 294.99px;
+    width: 221.243;
+}
