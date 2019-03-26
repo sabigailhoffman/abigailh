@@ -26,3 +26,14 @@ li{
     height: 294.99px;
     width: 221.243;
 }
+#header-image{
+    align-self: center;
+}
+#header {
+    width: 100%;
+    height:964px;
+    display: flex;
+    justify-content: center;
+    background-image: url("images/splashcover.jpg");
+    background-size: cover;
+}
