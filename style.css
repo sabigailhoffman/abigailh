@@ -39,9 +39,18 @@ li{
     background-image: url("images/splashcover.jpg");
     background-size: cover;
 }
+#pictures{
+    display: flex;
+    justify-content: space-around;
+    height: 290px;
+    width:290;
+}
+
 #eye{
     width: 290px;
     height: 220;
+    justify-content: space-around;
+    justify-content: flex-start;
 }
 #jennifer{
     width: 290px;
