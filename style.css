@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
 ul{
     display: flex;
     justify-content: space-around;
     width: 100%;
+    padding: 0px;
 
 }
 li{
@@ -39,24 +42,22 @@ li{
     background-image: url("images/splashcover.jpg");
     background-size: cover;
 }
-#pictures{
+#pictures {
     display: flex;
     justify-content: space-around;
-    height: 290px;
-    width:290;
+    height: 500px;
+    width: 100%;
+
 }
 
-#eye{
+.index-images {
     width: 290px;
-    height: 220;
     justify-content: space-around;
     justify-content: flex-start;
+    object-fit: contain;
 }
-#jennifer{
-    width: 290px;
-    height: 220;
-}
-#firework{
-    width: 290px;
-    height: 220;
+
+body{
+    margin: 0;
+
 }
