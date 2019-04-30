@@ -5,7 +5,6 @@ ul{
     justify-content: space-around;
     width: 100%;
     padding: 0px;
-
 }
 
 li{
@@ -15,6 +14,19 @@ li{
     font-family: serif;
 }
 #profile-picture{
+    display: flex;
+    align-self: center;
     height: 405px;
     width: 331px;
+   margin: 80px;
+}
+#profile{
+    display: flex;
+   justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    text-align: center;
 }

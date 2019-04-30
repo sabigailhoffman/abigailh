@@ -13,6 +13,14 @@ li{
     font-size: 24pt;
     font-family: serif;
 }
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color:darkred;
+    transition: color 0.5s;
+}
 
 #Profile {
     margin-top: 800px;
@@ -60,4 +68,33 @@ li{
 body{
     margin: 0;
 
+}
+#profile-picture{
+    display: flex;
+    align-self: center;
+    height: 405px;
+    width: 331px;
+   margin: 80px;
+}
+#profile{
+    display: flex;
+   justify-content: center;
+}
+#paragraph{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    text-align: center;
+    height: 230px;
+    width:30%;
+    border: solid 1px black;
+}
+body{
+    background-color:
+}
+#profile-body{
+    display: flex;
+    justify-content: center;
+    height:500px;
+    width: 100%;
 }
