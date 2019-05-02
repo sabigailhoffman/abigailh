@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Lora');
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity:1;
+    }
+}
 
 /*start for nav*/
 ul{
@@ -44,7 +51,14 @@ a:hover{
     align-self: center;
     height: 217.49;
     width: 404.028;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: 1.2s;
+    animation-name: fadeIn;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
 }
+
 #header {
     width: 100%;
     height:964px;
@@ -70,8 +84,8 @@ a:hover{
 
 body{
     margin: 0;
-
 }
+/*end of splash page*/
 
 /*start of profile page css*/
 #profile-picture{
@@ -94,9 +108,7 @@ body{
     width:30%;
     border: solid 1px black;
 }
-body{
-    background-color: floralwhite;
-}
+
 #profile-body{
     display: flex;
     justify-content: center;
@@ -104,3 +116,17 @@ body{
     width: 100%;
 }
 /*end of profile page css*/
+
+/*start of portfolio*/
+
+/*end of portfolio*/
+
+/*start of contact*/
+#body-image {
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    background-image: url('images/contactbackground.jpg');
+    background-size: cover;
+}
