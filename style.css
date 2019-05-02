@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
+/*start for nav*/
 ul{
     display: flex;
     justify-content: space-around;
@@ -21,7 +22,9 @@ a:hover{
     color:darkred;
     transition: color 0.5s;
 }
+/*end of nav*/
 
+/*start of splash page info*/
 #Profile {
     margin-top: 800px;
     width: 100%;
@@ -69,6 +72,8 @@ body{
     margin: 0;
 
 }
+
+/*start of profile page css*/
 #profile-picture{
     display: flex;
     align-self: center;
@@ -90,7 +95,7 @@ body{
     border: solid 1px black;
 }
 body{
-    background-color:
+    background-color: floralwhite;
 }
 #profile-body{
     display: flex;
@@ -98,3 +103,4 @@ body{
     height:500px;
     width: 100%;
 }
+/*end of profile page css*/
