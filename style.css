@@ -75,13 +75,6 @@ a:hover{
 
 }
 
-.index-images {
-    width: 290px;
-    justify-content: space-around;
-    justify-content: flex-start;
-    object-fit: contain;
-}
-
 body{
     margin: 0;
 }
@@ -99,14 +92,16 @@ body{
     display: flex;
    justify-content: center;
 }
-#paragraph{
+#profile-para{
+    margin-left: 45px;
+    margin-top: 220px;
     display: flex;
     justify-content: center;
     text-align: justify;
     text-align: center;
     height: 230px;
     width:30%;
-    border: solid 1px black;
+
 }
 
 #profile-body{
@@ -122,8 +117,14 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
+
+}
+.index-images {
+    width: 700px;
+    justify-content: space-around;
+    justify-content: flex-start;
+    object-fit: contain;
+    justify-content: space-around;
 }
 /*end of portfolio*/
 
@@ -142,6 +143,6 @@ body{
     flex-direction: column;
     align-items: center;
     color: white;
-    border: solid 1px white;
+    font-size:20px;
 align-content: space-around;
 }
