@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+body{
+    margin: 0;
+}
+
 @keyframes fadeIn{
     from{
         opacity: 0;
@@ -19,7 +25,7 @@ li{
     align-self: center;
     list-style: none;
     font-size: 24pt;
-    font-family: serif;
+    font-family: 'Crimson Text', serif;
 }
 a {
     color: black;
@@ -74,23 +80,28 @@ a:hover{
     width: 100%;
 
 }
-
-body{
-    margin: 0;
+.index-images {
+    justify-content: space-around;
+    justify-content: flex-start;
+    object-fit: contain;
+    justify-content: space-around;
+    width: 290px;
 }
+
 /*end of splash page*/
 
 /*start of profile page css*/
 #profile-picture{
     display: flex;
     align-self: center;
-    height: 405px;
-    width: 331px;
-   margin: 80px;
+    height: 505px;
+    width: 431px;
+   margin: 100px;
 }
 #profile{
     display: flex;
    justify-content: center;
+    font-family: 'Crimson Text', serif;
 }
 #profile-para{
     margin-left: 45px;
@@ -101,6 +112,7 @@ body{
     text-align: center;
     height: 230px;
     width:30%;
+    font-family: 'Crimson Text', serif;
 
 }
 
@@ -117,15 +129,15 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
-.index-images {
-    width: 700px;
-    justify-content: space-around;
+.portfolio-images{
+  justify-content: space-around;
     justify-content: flex-start;
     object-fit: contain;
     justify-content: space-around;
+    width: 750px;
 }
+
 /*end of portfolio*/
 
 /*start of contact*/
@@ -145,4 +157,5 @@ body{
     color: white;
     font-size:20px;
 align-content: space-around;
+    font-family: 'Crimson Text', serif;
 }
