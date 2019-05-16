@@ -160,7 +160,7 @@ align-content: space-around;
     font-family: 'Crimson Text', serif;
 }
 /*start of media query small screen*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 750px){
     ul{
         font-size: 20px;
     }
