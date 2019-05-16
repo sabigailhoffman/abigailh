@@ -164,4 +164,7 @@ align-content: space-around;
     body{
         background-color: chartreuse;
     }
+    ul{
+        font-size: 20px;
+    }
 }
