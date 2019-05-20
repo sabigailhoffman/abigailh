@@ -76,8 +76,9 @@ a:hover{
 #pictures {
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     height: 500px;
-    width: 100%;
+    width: 100vw;
 
 }
 .index-images {
@@ -162,7 +163,7 @@ align-content: space-around;
 /*start of media query small screen*/
 @media only screen and (max-width: 375px){
     ul{
-        font-size: 20px;
+        font-size: 16px;
 
     }
     #header-image{
@@ -175,6 +176,23 @@ align-content: space-around;
     animation-play-state: running;
     animation-timing-function: ease-in;
 }
-
-
+#header {
+    width: 100%;
+    height:700px;
+    display: flex;
+    justify-content: center;
+    background-image: url("images/splashcover.jpg");
+    background-size: cover;
+}
+li{
+    align-self: center;
+    list-style: none;
+    font-size: 19pt;
+    font-family: 'Crimson Text', serif;
+}
+    #pictures {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
 }
