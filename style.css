@@ -195,4 +195,29 @@ li{
         align-items: center;
         height: 100%;
     }
+#profile-body{
+     flex-direction: column;
+        align-items: center;
+        height: 100%;
+}
+#profile-para{
+/*
+    margin-left: 45px;
+    margin-top: 220px;
+*/
+    display: flex;
+    justify-content: center;
+/*    text-align: justify;*/
+    text-align: center;
+/*    height: 230px;*/
+    width:30%;
+    font-family: 'Crimson Text', serif;
+    }
+#profile-picture{
+    display: flex;
+    align-self: center;
+    height: 505px;
+    width: 431px;
+/*   margin: 100px;*/
+    }
 }
