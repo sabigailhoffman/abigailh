@@ -179,7 +179,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
     align-content: space-around;
     font-family: 'Crimson Text', serif;
 }
@@ -199,6 +199,7 @@ a:hover {
         font-family: 'Crimson Text', serif;
     }
     /*    end for nav*/
+
     /*    start for splash page*/
     #header-image {
         align-self: center;
@@ -224,6 +225,7 @@ a:hover {
         height: 100%;
     }
     /*    end for splash*/
+
     /*    start for profile page */
     #profile-picture {
         display: flex;
@@ -254,11 +256,39 @@ a:hover {
 /*    end of profile page*/
 
 /*    start of portfolio page*/
+    #portfolio-pictures {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
     .portfolio-images {
+        display: flex;
     justify-content: space-between;
-    justify-content: flex-start;
     object-fit: contain;
-/*    justify-content: space-around;*/
     width: 100%;
+        height:300px;
+}
+/*    end of portfolio page*/
+
+/*    start of contact page*/
+    #body-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    background-image: url('images/contactbackground.jpg');
+    background-size: cover;
+    align-content: space-around;
+}
+    #contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    font-size: 25px;
+    align-content: space-around;
+    font-family: 'Crimson Text', serif;
+
 }
 }
